@@ -9,7 +9,7 @@ const schema=buildSchema(`
   type Post{
     id:ID
     title:String
-    Content:String
+    content:String
   }
 
   input UserInput{
